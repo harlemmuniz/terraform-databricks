@@ -1,0 +1,50 @@
+{
+    "id": "d62fe8ab-c7eb-47ec-82ca-682c44a3a8e9",
+    "pipeline_type": "WORKSPACE",
+    "clusters": [
+        {
+            "label": "default",
+            "node_type_id": "Standard_DS3_v2",
+            "driver_node_type_id": "Standard_DS3_v2",
+            "num_workers": 0
+        }
+    ],
+    "development": true,
+    "notifications": [
+        {
+            "email_recipients": [
+                "alert@mail.com"
+            ],
+            "alerts": [
+                "on-update-fatal-failure",
+                "on-update-failure"
+            ]
+        },
+        {
+            "email_recipients": [
+                "success@mail.com"
+            ],
+            "alerts": [
+                "on-update-success"
+            ]
+        }
+    ],
+    "continuous": false,
+    "channel": "CURRENT",
+    "photon": false,
+    "libraries": [
+        {
+            "notebook": {
+                "path": "/Users/test-user/dlt_read_kafka"
+            }
+        },
+        {
+            "notebook": {
+                "path": "/Users/test-user/testes-bronze-silver"
+            }
+        }
+    ],
+    "name": "poc_kafka",
+    "edition": "ADVANCED",
+    "storage": "dbfs:/pipelines/d62fe8ab-c7eb-47ec-82ca-682c44a3a8e9"
+}

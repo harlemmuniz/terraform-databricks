@@ -1,0 +1,19 @@
+{
+    "name": "catalog",
+    "owner": "service-principal@org.com.br",
+    "comment": "Comment",
+    "storage_root": "abfss://container@storageaccount.dfs.core.windows.net/catalog",
+    "catalog_type": "MANAGED_CATALOG",
+    "metastore_id": "c682e10d-6dab-44eb-9066-cea479d61381",
+    "created_at": 1699465131708,
+    "created_by": "service-principal@org.com.br",
+    "updated_at": 1699634546638,
+    "updated_by": "service-principal@org.com.br",
+    "storage_location": "abfss://container@storageaccount.dfs.core.windows.net/catalog/__unitystorage/catalogs/39e69e2d-d9fd-48bc-b9b0-bac8db95cb6e",
+    "isolation_mode": "ISOLATED",
+    "browse_only": true,
+    "id": "39e69e2d-d9fd-48bc-b9b0-bac8db95cb6e",
+    "full_name": "catalog",
+    "securable_type": "CATALOG",
+    "securable_kind": "CATALOG_STANDARD"
+}

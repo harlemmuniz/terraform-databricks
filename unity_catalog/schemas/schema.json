@@ -1,0 +1,19 @@
+{
+    "name": "schema",
+    "catalog_name": "catalog",
+    "owner": "service-principal@org.com.br",
+    "comment": "Schema comment",
+    "properties": {
+        "owner": "root"
+    },
+    "metastore_id": "c682e10d-6dab-44eb-9066-cea479d61381",
+    "full_name": "catalog.schema",
+    "created_at": 1699465137536,
+    "created_by": "service-principal@org.com.br",
+    "updated_at": 1699465137927,
+    "updated_by": "service-principal@org.com.br",
+    "catalog_type": "MANAGED_CATALOG",
+    "securable_type": "SCHEMA",
+    "securable_kind": "SCHEMA_STANDARD",
+    "browse_only": false
+}

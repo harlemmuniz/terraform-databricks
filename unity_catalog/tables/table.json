@@ -1,0 +1,92 @@
+{
+    "name": "table",
+    "catalog_name": "catalog",
+    "schema_name": "schema",
+    "table_type": "MANAGED",
+    "data_source_format": "DELTA",
+    "columns": [
+        {
+            "name": "__v",
+            "type_text": "bigint",
+            "type_name": "LONG",
+            "position": 0,
+            "type_precision": 0,
+            "type_scale": 0,
+            "type_json": "{\"name\":\"__v\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"comment\":\"Campaign version\"}}",
+            "comment": "Campaign version",
+            "nullable": true
+        },
+        {
+            "name": "_id_oid",
+            "type_text": "string",
+            "type_name": "STRING",
+            "position": 1,
+            "type_precision": 0,
+            "type_scale": 0,
+            "type_json": "{\"name\":\"_id_oid\",\"type\":\"string\",\"nullable\":true,\"metadata\":{\"comment\":\"Table id\"}}",
+            "comment": "Table id",
+            "nullable": true
+        },
+        {
+            "name": "campaign",
+            "type_text": "string",
+            "type_name": "STRING",
+            "position": 2,
+            "type_precision": 0,
+            "type_scale": 0,
+            "type_json": "{\"name\":\"campaign\",\"type\":\"string\",\"nullable\":true}}",
+            "nullable": true
+        },
+        {
+            "name": "createdAt",
+            "type_text": "timestamp",
+            "type_name": "TIMESTAMP",
+            "position": 3,
+            "type_precision": 0,
+            "type_scale": 0,
+            "type_json": "{\"name\":\"createdAt\",\"type\":\"timestamp\",\"nullable\":true,\"metadata\":{\"comment\":\"Timestamp of the record in the database\"}}",
+            "comment": "Timestamp of the record in the database",
+            "nullable": true
+        },
+        {
+            "name": "from",
+            "type_text": "string",
+            "type_name": "STRING",
+            "position": 4,
+            "type_precision": 0,
+            "type_scale": 0,
+            "type_json": "{\"name\":\"from\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}",
+            "nullable": true
+        }
+    ],
+    "storage_location": "abfss://container@storageaccount.dfs.core.windows.net/catalog/schema/__unitystorage/catalogs/39e69e2d-d9fd-48bc-b9b0-bac8db95cb6e/tables/a123a64c-a0a1-4613-af84-c7f10bb8fbd6",
+    "owner": "owner",
+    "comment": "Table comment",
+    "properties": {
+        "delta.lastCommitTimestamp": "1717623490000",
+        "delta.lastUpdateVersion": "21",
+        "delta.minReaderVersion": "1",
+        "delta.minWriterVersion": "2"
+    },
+    "securable_kind": "TABLE_DELTA",
+    "properties_pairs": {
+        "properties": {
+            "delta.lastCommitTimestamp": "1717623490000",
+            "delta.lastUpdateVersion": "21",
+            "delta.minReaderVersion": "1",
+            "delta.minWriterVersion": "2"
+        }
+    },
+    "generation": 20,
+    "metastore_id": "00000000-0000-0000-0000-000000000000",
+    "full_name": "catalog.schema.table",
+    "data_access_configuration_id": "00000000-0000-0000-0000-000000000000",
+    "created_at": 1710787292765,
+    "created_by": "service-principal@org.com.br",
+    "updated_at": 1717623490680,
+    "updated_by": "service-principal@org.com.br",
+    "table_id": "a123a64c-a0a1-4613-af84-c7f10bb8fbd6",
+    "delta_runtime_properties_kvpairs": {},
+    "securable_type": "TABLE",
+    "browse_only": false
+}

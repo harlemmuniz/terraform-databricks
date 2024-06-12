@@ -1,0 +1,16 @@
+variable "pipeline_type" {}
+variable "ambiente" {}
+variable "clusters" {}
+variable "development" {}
+variable "continuous" {}
+variable "channel" {}
+variable "photon" {}
+variable "libraries" {}
+variable "name" {}
+variable "edition" {}
+variable "storage" {}
+variable "configuration" {}
+variable "target" {}
+variable "notifications" {}
+variable "catalog" {}
+variable "destinatarios_alertas" {}

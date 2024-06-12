@@ -1,0 +1,12 @@
+variable "name" {}
+variable "ambiente" {}
+variable "storage_root" {}
+variable "provider_name" {}
+variable "share_name" {}
+variable "connection_name" {}
+variable "owner" {}
+variable "isolation_mode" {}
+variable "comment" {}
+variable "properties" {}
+variable "options" {}
+variable "force_destroy" {}
